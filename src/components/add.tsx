@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Modal from "./Modal"; // Подкорректируйте путь импорта в зависимости от вашей структуры
+import Modal from "./modal"; // Подкорректируйте путь импорта в зависимости от вашей структуры
 import Cookies from "js-cookie";
 
 interface IList {
