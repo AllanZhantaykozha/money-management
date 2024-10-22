@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply text-3xl font-medium border-[1px] border-slate-400 bg-slate-500 w-[150px] justify-center flex rounded-full transition-transform duration-300 transform hover:scale-105;
+}
+
+body {
+  @apply bg-slate-800;
+}
